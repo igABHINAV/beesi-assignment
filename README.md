@@ -4,15 +4,19 @@ This React application illustrates a step-by-step guide on how a process works. 
 
 ## Files
 
+### Images 
+- Contains the logo images for the steps .
+
 ### App.jsx
 
 #### Components
-- **Logo1**: Represents content for Step 1.
-- **Logo2**: Represents content for Step 2.
-- **Logo3**: Represents content for Step 3.
-- **Logo4**: Represents content for Step 4.
+- **Logo1.jsx**: Represents logo content for Step 1.
+- **Logo2.jsx**: Represents logo content for Step 2.
+- **Logo3.jsx**: Represents logo content for Step 3.
+- **Logo4.jsx**: Represents logo content for Step 4.
+- **Logo.css** : Contains the basic hover effects and stylings of the logo .
 
-#### Styling
+## Styling
 - **App.css**: Contains styles for the entire application, including media queries for responsiveness.
   
 ### Styling
@@ -43,10 +47,10 @@ This React application illustrates a step-by-step guide on how a process works. 
 ### Hover Effects
 - Hover effects are applied to the Ellipse components to change background color on hover.
 
-## Usage
+## Installation
 
 1. Install dependencies: `npm install`
-2. Run the application: `npm start`
+2. Run the application: `npm run dev`
 
 ## Additional Notes
 
